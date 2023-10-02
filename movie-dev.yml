@@ -3,14 +3,14 @@ server:
 spring:
   application:
     name: microservice-movie
-eureka:
-  client:
-    register-with-eureka: true #是否要把該服務註冊到eureka
-    fetch-registry: true #是否要從eureka獲取註冊訊息 (叢體)，false的話無法和服務方要資料
-    service-url: #開放的位置
-      defaultZone: http://127.0.0.1:8888/eureka
-  instance:
-    prefer-ip-address: true #優先使用該服務的IP註冊到eureka
+#eureka:
+  #client:
+    #register-with-eureka: true #是否要把該服務註冊到eureka
+    #fetch-registry: true #是否要從eureka獲取註冊訊息 (叢體)，false的話無法和服務方要資料
+    #service-url: #開放的位置
+      #defaultZone: http://127.0.0.1:8888/eureka
+  #instance:
+    #prefer-ip-address: true #優先使用該服務的IP註冊到eureka
 #microservice-user:
 #  ribbon:
 #      NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
