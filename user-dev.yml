@@ -12,13 +12,13 @@ spring:     #服務名稱，暫時沒用，springcloud微服務才有用
     show-sql: true
     generate-ddl: true
     database: mysql
-eureka:
-  client:
-    register-with-eureka: true #是否要把該服務註冊到eureka，服務方有必要
-    fetch-registry: true #是否要從eureka獲取註冊訊息 (叢體)
-    service-url: #開放的位置
-      defaultZone: http://127.0.0.1:8888/eureka
-  instance:
-    prefer-ip-address: true #優先使用該服務的IP註冊到eureka
-    lease-renewal-interval-in-seconds: 5 #服務註冊後，續約間隔告訴eurekaServer我還活著
-    lease-expiration-duration-in-seconds: 10 #服務失效的時間
+#eureka:
+  #client:
+    #register-with-eureka: true #是否要把該服務註冊到eureka，服務方有必要
+    #fetch-registry: true #是否要從eureka獲取註冊訊息 (叢體)
+    #service-url: #開放的位置
+      #defaultZone: http://127.0.0.1:8888/eureka
+  #instance:
+    #prefer-ip-address: true #優先使用該服務的IP註冊到eureka
+    #lease-renewal-interval-in-seconds: 5 #服務註冊後，續約間隔告訴eurekaServer我還活著
+    #lease-expiration-duration-in-seconds: 10 #服務失效的時間
