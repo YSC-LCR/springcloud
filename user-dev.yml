@@ -6,8 +6,8 @@ spring:     #服務名稱，暫時沒用，springcloud微服務才有用
   datasource:
     url: jdbc:mysql://localhost:3306/springcloud?characterEncoding=UTF8
     driver-class-name: com.mysql.jdbc.Driver
-    username: myadmin
-    password: cobra8029
+    username: root  
+    password: 123456
   jpa:
     show-sql: true
     generate-ddl: true
