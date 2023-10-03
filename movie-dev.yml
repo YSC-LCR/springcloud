@@ -3,13 +3,13 @@ server:
 spring:
   application:
     name: microservice-movie
-  zipkin:
-    base-url: http://127.0.0.1:9041
-    sender:
-      type: web
-  sleuth:
-    sampler:
-      probability: 1 #日字更新頻率
+  #zipkin:
+    #base-url: http://127.0.0.1:9041
+    #sender:
+      #type: web
+  #sleuth:
+    #sampler:
+      #probability: 1 #日字更新頻率
 #eureka:
   #client:
     #register-with-eureka: true #是否要把該服務註冊到eureka
