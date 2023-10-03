@@ -4,7 +4,7 @@ spring:     #服務名稱，暫時沒用，springcloud微服務才有用
   application:
     name: microservice-user
   datasource:
-    url: jdbc:mysql://192.168.127.75:3306/springcloud?characterEncoding=UTF8
+    url: jdbc:mysql://localhost:3306/springcloud?characterEncoding=UTF8
     driver-class-name: com.mysql.jdbc.Driver
     username: myadmin
     password: cobra8029
